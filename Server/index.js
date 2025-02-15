@@ -46,5 +46,8 @@ setupSocket(server)
 
 mongoose.connect(mongodb+srv://plaraoffcl:zL6GG2H3FXI5qsQD@growmore.kffrb.mongodb.net/GrowMore?retryWrites=true&w=majority&appName=GrowMore).then(()=>console.log('DB Connection Successfull.'))
 .catch(err=>console.log(err.message));
+api.get("/",(req,res)=>{
+    res,json("Hello")
+})
 
 
