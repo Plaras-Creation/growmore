@@ -44,7 +44,7 @@ const server = app.listen(port,()=>{
 setupSocket(server)
 
 
-mongoose.connect(databaseURL).then(()=>console.log('DB Connection Successfull.'))
+mongoose.connect(mongodb+srv://plaraoffcl:<db_password>@growmore.kffrb.mongodb.net/GrowMore?retryWrites=true&w=majority&appName=GrowMore).then(()=>console.log('DB Connection Successfull.'))
 .catch(err=>console.log(err.message));
 
 
