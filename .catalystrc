@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "9230000000058001",
+      "name": "Grow-More",
+      "domain": {
+        "id": "50024882472",
+        "name": "grow-more-60031982310.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "60031982310",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}
